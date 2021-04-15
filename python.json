@@ -1,0 +1,9 @@
+{
+
+"questions":[
+	
+	{"num":1, "question":"What ends the line in Python?", "c1":"A new line", "c2":";", "c3":".", "c4":".end", "a":"A new line", "type":"multiple"}
+	
+	
+	]
+}

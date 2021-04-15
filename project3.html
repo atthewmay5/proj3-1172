@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+		<script src="require.js"></script>
+		<script src="app.js"></script>
+		
+	</head>
+	
+	<body>
+			
+		<div class="container h-100">
+			<div class="row-align-items-center h-100">
+				<div class="col-6 mx-auto">
+				
+					<div id="app_widget" class="align-items-center">
+					
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		
+		<script id="startpage" type="text/x-handlebars-template">
+			
+			<div class="container">
+				
+				<h1> Please enter your first and last name! </h1>
+				
+				<h2> Then, choose which test you would like to take. </h2>
+				
+				<form>
+					
+					<label for="fname">First Name:</label><br>
+					<input type="text" id="fname" name="fname"></br>
+					<label for="lname">Last Name:</label><br>
+					<input type="text" id="lname" name="lname"><br><br>
+					<input type="button" id="python" name="python" value="Python">
+					<input type="button" id="java" name="java" value="Java">
+				
+				</form>
+				
+			</div>
+			
+		</script>
+		
+		<script id="multiple" type="text/x-handlebars-template">
+		
+			<div class="container">
+				
+				<h1>Question {{num}}</h1>
+				
+				<form>
+					
+					<label for="question">{{question}}</label><br>
+					
+					<input type="radio" name="ans1">
+					<label for="c1">{{c1}}</label><br>
+					<input type="radio" name="ans2">
+					<label for="c2">{{c2}}</label><br>
+					<input type="radio" name="ans3">
+					<label for="c3">{{c3}}</label><br>
+					<input type="radio" name="ans4">
+					<label for="c4">{{c4}}</label><br>
+					<input type="button" id="next" name="next" value="Next">
+
+				
+				</form>
+				
+			</div>
+			
+		</script>
+		
+		
+		
+	</body>
+
+</html>
