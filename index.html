@@ -2,8 +2,10 @@
 <html>
 
 	<head>
+		
 		<link rel="stylesheet" href="styling.css">
 		<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+		<script src="require.js"></script>
 		<script src="app.js"></script>
 		
 	</head>
@@ -75,7 +77,48 @@
 			
 		</script>
 		
+		<script id="tf" type="text/x-handlebars-template">
 		
+			<div class="container">
+				
+				<h1>Question {{num}}</h1>
+				
+				<form>
+					
+					<label for="question">{{question}}</label><br>
+					
+					<input type="radio" name="ans1">
+					<label for="c1">{{c1}}</label><br>
+					<input type="radio" name="ans2">
+					<label for="c2">{{c2}}</label><br>
+					<input type="button" id="next" name="next" value="Next">
+
+				
+				</form>
+				
+			</div>
+			
+		</script>
+		
+		<script id="multiple" type="text/x-handlebars-template">
+		
+			<div class="container">
+				
+				<h1>Question {{num}}</h1>
+				
+				<form>
+					
+					<label for="question">{{question}}</label><br>
+					
+					<input type="text" id="ans" name="ans"><br>
+					<input type="button" id="next" name="next" value="Next">
+
+				
+				</form>
+				
+			</div>
+			
+		</script>
 		
 	</body>
 
