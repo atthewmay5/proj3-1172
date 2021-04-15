@@ -3,6 +3,25 @@
 "questions":[
 	
 	{"num":1, "question":"What ends the line in Python?", "c1":"A new line", "c2":";", "c3":".", "c4":".end", "a":"A new line", "type":"multiple"}
+	{"num":2, "question":"Is Java an Object Oriented Program?", "c1":"Yes", "c2":"No", "a":"Yes", "type":"tf"}
+	{"num":3, "question":"How do you print "hello" in Python?", "a":"print("hello")", "type":"short"}
+	{"num":4, "question":"How do you import a library in Python?", "c1":"Get", "c2":"Bring", "c3":"Import", "c4":"apt-get", "a":"Import", "type":"multiple"}
+	{"num":5, "question":"How do you import a library in Python?", "c1":"Get", "c2":"Bring", "c3":"Import", "c4":"apt-get", "a":"Import", "type":"multiple"}
+	{"num":6, "question":"How do you import a library in Python?", "c1":"Get", "c2":"Bring", "c3":"Import", "c4":"apt-get", "a":"Import", "type":"multiple"}
+	{"num":7, "question":"How do you import a library in Python?", "c1":"Get", "c2":"Bring", "c3":"Import", "c4":"apt-get", "a":"Import", "type":"multiple"}
+	{"num":8, "question":"How do you import a library in Python?", "c1":"Get", "c2":"Bring", "c3":"Import", "c4":"apt-get", "a":"Import", "type":"multiple"}
+	{"num":9, "question":"How do you import a library in Python?", "c1":"Get", "c2":"Bring", "c3":"Import", "c4":"apt-get", "a":"Import", "type":"multiple"}
+	{"num":10, "question":"How do you import a library in Python?", "c1":"Get", "c2":"Bring", "c3":"Import", "c4":"apt-get", "a":"Import", "type":"multiple"}
+	{"num":11, "question":"How do you import a library in Python?", "c1":"Get", "c2":"Bring", "c3":"Import", "c4":"apt-get", "a":"Import", "type":"multiple"}
+	{"num":12, "question":"How do you import a library in Python?", "c1":"Get", "c2":"Bring", "c3":"Import", "c4":"apt-get", "a":"Import", "type":"multiple"}
+	{"num":13, "question":"How do you import a library in Python?", "c1":"Get", "c2":"Bring", "c3":"Import", "c4":"apt-get", "a":"Import", "type":"multiple"}
+	{"num":14, "question":"How do you import a library in Python?", "c1":"Get", "c2":"Bring", "c3":"Import", "c4":"apt-get", "a":"Import", "type":"multiple"}
+	{"num":15, "question":"How do you import a library in Python?", "c1":"Get", "c2":"Bring", "c3":"Import", "c4":"apt-get", "a":"Import", "type":"multiple"}
+	{"num":16, "question":"How do you import a library in Python?", "c1":"Get", "c2":"Bring", "c3":"Import", "c4":"apt-get", "a":"Import", "type":"multiple"}
+	{"num":17, "question":"How do you import a library in Python?", "c1":"Get", "c2":"Bring", "c3":"Import", "c4":"apt-get", "a":"Import", "type":"multiple"}
+	{"num":18, "question":"How do you import a library in Python?", "c1":"Get", "c2":"Bring", "c3":"Import", "c4":"apt-get", "a":"Import", "type":"multiple"}
+	{"num":19, "question":"How do you import a library in Python?", "c1":"Get", "c2":"Bring", "c3":"Import", "c4":"apt-get", "a":"Import", "type":"multiple"}
+	{"num":20, "question":"How do you import a library in Python?", "c1":"Get", "c2":"Bring", "c3":"Import", "c4":"apt-get", "a":"Import", "type":"multiple"}	
 	
 	
 	]
