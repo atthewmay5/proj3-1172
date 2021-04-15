@@ -2,7 +2,7 @@
 
 async function loadpython(){
 	
-	const response = await fetch("python.json");
+	const response = await fetch("db.json");
 	const questions = await response.json();
 	
 	return users;
