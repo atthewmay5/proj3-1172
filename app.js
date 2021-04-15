@@ -1,8 +1,4 @@
 
-require(['require'], function (require) {
-var client = require(['require', 'express']); // <-ERROR
-app = client();
-});
 
 async function loadpython(){
 	
