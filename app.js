@@ -28,9 +28,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 	try{
 		
 		const data = await loadpython();
-	}	catch(e){
-		console.log("error");
-	}
+	}	
 	
 });
 
